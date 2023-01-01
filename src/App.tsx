@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Logo />
+        <div style={{ width: '400px', height: '400px' }}>
+          <Logo />
+        </div>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
